@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Multiply X Divide</title>
+  </head>
+  <body>
+    <form class="container">
+      <div class="upper">
+        <ion-icon class="icon" name="calculator-outline"></ion-icon>
+        <div>
+          <div>
+            <label for="firstNumber">First Number:</label>
+            <input type="number" id="firstNumber" name="firstNumber" />
+          </div>
+
+          <div>
+            <label for="secondNumber">Second Number:</label>
+            <input type="number" id="secondNumber" name="secondNumber" />
+          </div>
+          <div id="answer">You can't see me</div>
+        </div>
+      </div>
+
+      <div class="operation-container">
+        <button id="multiplication" class="operation">&times;</button>
+        <button id="division" class="operation">&divide;</button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
